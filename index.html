@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Jogo da Velha</h1>
+    <!-- botões -->
+    <div id="buttons-container">
+        <button id="dois-players">2 Jogadores</button>
+        <button id="ia-player">Contra IA</button>
+    </div>
+
+    <!-- jogo da velha -->
+    <div id="container" class="hide">
+        <div class="box" id="block-1"></div>
+        <div class="box" id="block-2"></div>
+        <div class="box" id="block-3"></div>
+        <div class="box" id="block-4"></div>
+        <div class="box" id="block-5"></div>
+        <div class="box" id="block-6"></div>
+        <div class="box" id="block-7"></div>
+        <div class="box" id="block-8"></div>
+        <div class="box" id="block-9"></div>
+
+        <div id="placar-container">
+            <h2>Placar: </h2>
+            <span class="scorebox-container">
+                <span id="x-score">X</span>:
+                <span id="score-1">0</span>
+            </span>
+
+            <span class="scorebox-container">
+                <span id="o-score"></span>:
+                <span id="score-2">0</span>
+            </span>
+        </div>
+    </div> <!-- container -->
+
+    <div class="hide"> <!-- elementos do jogo da velha (x e o)-->
+        <div class="x">X</div>
+        <div class="o"></div> <!-- vai ser feito com CSS -->
+    </div>
+
+    <div id="mensagem" class="hide">
+        <p>asdasd</p>
+    </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
